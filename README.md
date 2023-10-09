@@ -10,11 +10,17 @@ The "Intro to Python for Data Science Nanodegree" is designed to provide learner
 
 <h1> Files used </h1>
 Include the files used:
-  bikeshare.py
-  sql
+  <ul>
+    <li>
+      bikeshare.py
+    </li>
+    <li>
+      SQL file
+    </li>
+  </ul>
 
 ### Credits
-Stark Overflow
+Stack Overflow
 
 <h1> Table of Contents </h1>
 <ul>
