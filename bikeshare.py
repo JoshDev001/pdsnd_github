@@ -9,7 +9,7 @@ CITY_DATA = {
 }
 
 months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
-# get_filters function -- The Updated Changes
+# Get Filter Function
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -48,7 +48,7 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
-
+# Load data for specified city
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -192,7 +192,17 @@ def main():
             else:
                 break
         print('-'*40)
-       
+       # Additional questions about the data
+        print('\nAdditional Questions about the Data:')
+        print('1. What is the most common start station?')
+        print('Most common start station:', df['Start Station'].mode()[0])
+
+        print('\n2. What is the most common end station?')
+        print('Most common end station:', df['End Station'].mode()[0])
+
+        print('\n3. What is the most common trip (from start station to end station)?')
+        df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
+        print('Most frequent combination of start and end station trip:', df['Trip'].mode()[0])
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
