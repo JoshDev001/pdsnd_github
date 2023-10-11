@@ -9,7 +9,7 @@
 }
     # Master branch
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
-
+    
     def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
