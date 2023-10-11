@@ -1,5 +1,5 @@
 <h1> Date created </h1>
-<b> October, 9th 2023 </b>
+<b> October, 10th 2023 </b>
 
 <h1> Project Title </h1>
 Udacity Nanodegree Project
@@ -20,7 +20,7 @@ Include the files used:
   </ul>
 
 ### Credits
-Stack Overflow
+Stack Overflow & Udacity
 
 <h1> Contributing </h1>
 Contributions are welcome! If you'd like to contribute to this repository, please follow these guidelines:
@@ -34,3 +34,4 @@ Contributions are welcome! If you'd like to contribute to this repository, pleas
 <footer>
     <p> &copy; 2023. All rights reserved.</p>
 </footer>
+<!-- Documentation-->
