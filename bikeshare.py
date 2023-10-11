@@ -1,16 +1,17 @@
-    #This is the refractory branch
+ #This is from the Documentation branch
     import time
     import pandas as pd
     import numpy as np
+    
 #Load city data
     CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
     'washington': 'washington.csv'
 }
-
+    #From the Master Branch
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
-
+    
     def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -211,4 +212,5 @@ if __name__ == "__main__":
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-    # refactoring branch
+    # From the refactoring branch
+
