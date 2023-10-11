@@ -1,13 +1,15 @@
+ #This is from the Documentation branch
     import time
     import pandas as pd
     import numpy as np
+    
 #Load city data
     CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
     'washington': 'washington.csv'
 }
-    # Master branch
+    #From the Master Branch
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     
     def get_filters():
@@ -209,3 +211,6 @@ if __name__ == "__main__":
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+    # From the refactoring branch
+
