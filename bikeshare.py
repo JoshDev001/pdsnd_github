@@ -7,9 +7,9 @@
     'new york city': 'new_york_city.csv',
     'washington': 'washington.csv'
 }
-
+    # Master branch
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
-
+    
     def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -209,5 +209,3 @@ if __name__ == "__main__":
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    # Documentation Branch
-    
