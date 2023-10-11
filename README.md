@@ -22,7 +22,7 @@ Include the files used:
 ### Credits
 <ul>
     <li>
-     stack overflow
+    stack overflow
     </li>
     <li>
       Udacity Courses
@@ -30,7 +30,8 @@ Include the files used:
     <li>
       Udacity Instructors
     </li>
-  </ul>
+ </ul>
+
 <h1> Contributing </h1>
 Contributions are welcome! If you'd like to contribute to this repository, please follow these guidelines:
 <ol>

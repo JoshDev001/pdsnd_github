@@ -1,4 +1,5 @@
 
+#Importing the necessary libraries
     import time
     import pandas as pd
     import numpy as np
@@ -196,24 +197,22 @@ def main():
         print('1. What is the most common start station?')
         print('Most common start station:', df['Start Station'].mode()[0])
 
+        <<<<<<< Documentation        
         print('\n2. What is the most common end station?')
         print('Most common end station:', df['End Station'].mode()[0])
+       
 
+        <<<<<<< refactoring
+   
         print('\n3. What is the most common trip (from start station to end station)?')
         df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
         print('Most frequent combination of start and end station trip:', df['Trip'].mode()[0])
-        
+    
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
-if __name__ == "__main__":
+  if __name__ == "__main__":
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
-    # From the refactoring branch
-
-
-
-
