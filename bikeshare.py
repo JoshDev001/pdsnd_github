@@ -196,9 +196,6 @@ def main():
         print('1. What is the most common start station?')
         print('Most common start station:', df['Start Station'].mode()[0])
 
-        print('\n2. What is the most common end station?')
-        print('Most common end station:', df['End Station'].mode()[0])
-        
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
