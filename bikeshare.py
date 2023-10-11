@@ -1,8 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
-# Get City Data
+#Load city data
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -197,7 +196,6 @@ def main():
         print('\nAdditional Questions about the Data:')
         print('1. What is the most common start station?')
         print('Most common start station:', df['Start Station'].mode()[0])
-<<<<<<< HEAD
 
         print('\n2. What is the most common end station?')
         print('Most common end station:', df['End Station'].mode()[0])
@@ -205,8 +203,6 @@ def main():
         print('\n3. What is the most common trip (from start station to end station)?')
         df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
         print('Most frequent combination of start and end station trip:', df['Trip'].mode()[0])
-=======
->>>>>>> refactoring
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
