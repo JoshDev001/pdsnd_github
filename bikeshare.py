@@ -197,7 +197,10 @@ def main():
         print('1. What is the most common start station?')
         print('Most common start station:', df['Start Station'].mode()[0])
 
-        print('\n2. What is the most common trip (from start station to end station)?')
+        print('\n2. What is the most common end station?')
+        print('Most common end station:', df['End Station'].mode()[0])
+
+        print('\n3. What is the most common trip (from start station to end station)?')
         df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
         print('Most frequent combination of start and end station trip:', df['Trip'].mode()[0])
         
