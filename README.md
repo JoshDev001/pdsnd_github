@@ -1,17 +1,30 @@
-**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+<h1> Date created </h1>
+<b> October, 9th 2023 </b>
 
-### Date created
-October, 11th 2023
+<h1> Table of Contents </h1>
+<ul>
+<li> Description </li>
+<li> Files used </li>
+<li> Credits </li>
+</ul>
 
-### Project Title
-Refactoring Title
+<h1> Project Title </h1>
+Udacity Nanodegree Project
 
-### Description
-Describe what your project is about and what it does
+<h1> Description </h1>
+This repository contains coursework and projects completed as part of the "Intro to Python for Data Science Nanodegree" offered by Udacity.
+The "Intro to Python for Data Science Nanodegree" is designed to provide learners with a foundational understanding of Python programming Languages in the context of data science. The course covers key Python concepts, data manipulation, analysis, and visualization using popular libraries such as Pandas, NumPy, and Matplotlib.
 
-### Files used
-bikeshare.py
+<h1> Files used </h1>
+Include the files used:
+  <ul>
+    <li>
+      bikeshare.py
+    </li>
+    <li>
+      SQL file
+    </li>
+  </ul>
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Stack Overflow
