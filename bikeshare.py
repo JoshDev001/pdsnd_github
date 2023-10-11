@@ -192,14 +192,7 @@ def main():
             else:
                 break
         print('-'*40)
-       # Additional questions about the data
-        print('\nAdditional Questions about the Data:')
-        print('1. What is the most common start station?')
-        print('Most common start station:', df['Start Station'].mode()[0])
-
-        print('\n2. What is the most common trip (from start station to end station)?')
-        df['Trip'] = df['Start Station'] + ' to ' + df['End Station']
-        print('Most frequent combination of start and end station trip:', df['Trip'].mode()[0])
+       
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
