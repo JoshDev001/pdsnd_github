@@ -9,7 +9,7 @@ CITY_DATA = {
 }
 
 months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
-
+# get_filters function -- The Updated Changes
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
