@@ -20,14 +20,16 @@ Include the files used:
   </ul>
 
 ### Credits
- <ul>
+<ul>
     <li>
       stack overflow
     </li>
+  
     <li>
       Udacity Courses
     </li>
-  </ul>
+
+</ul>
 
 <h1> Contributing </h1>
 Contributions are welcome! If you'd like to contribute to this repository, please follow these guidelines:
